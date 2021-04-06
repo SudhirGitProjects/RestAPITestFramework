@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Run Api Test]" parallel="tests">
+  <test name="testin api">
+    <classes>
+      <class name="com.cs.TestNGrunners.RunCucumberTests"/>
+    </classes>
+  </test> <!-- testin api -->
+</suite> <!-- Failed suite [Run Api Test] -->

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Run Api Test" parallel="tests" verbose="1"
+	configfailurepolicy="continue" thread-count="3">
+
+
+	
+	<test name="testin api">
+		<classes>
+			<class name="com.cs.TestNGrunners.RunCucumberTests" />
+		</classes>
+	</test>
+	
+</suite>

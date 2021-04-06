@@ -1,0 +1,4 @@
+Feature: testing api of trade tool
+
+  Background: Loading excel file                                                             # test1.feature:3
+    Given user load the data from Excel sheet "src\test\resources\fixtureFile\TestData.xlsx" # StepDefination.user_load_the_data_from_Excel_sheet(String)
